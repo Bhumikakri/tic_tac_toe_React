@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  width: 98vw;
+  min-height: 100vh;
+  background-color: rgb(34, 34, 34);
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+.homePage{
+  width: 100%;
+  height: 606px;
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+}
+.homePage button{
+  box-shadow: 1px 3px 1px 2px rgb(0, 0, 0);
+  background-color: rgb(255, 174, 0);
+  color: aliceblue;
+}
+.homePage img{
+  border-radius: 30px;
+  width: 30%;
+  box-shadow: 2px 0px 100px 10px rgb(255, 174, 0);
+  transform: rotate(10deg);
+}
